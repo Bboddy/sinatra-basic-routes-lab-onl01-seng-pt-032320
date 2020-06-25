@@ -14,6 +14,6 @@ class App < Sinatra::Base
   end
   
   get '/favorite-song' do 
-    "My name is Rick Astley - Never Gonna Give You Up"
+    "My favorite song is Rick Astley - Never Gonna Give You Up"
   end
 end
