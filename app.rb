@@ -5,15 +5,15 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get '/:name' do 
+  get '/name' do 
     "My name is Leroy Jenkins"
   end
   
-  get '/:hometown' do 
+  get '/hometown' do 
     "My name is Chiraq"
   end
   
-  get '/:favorite-song' do 
+  get '/favorite-song' do 
     "My name is Rick Astley - Never Gonna Give You Up"
   end
 end
