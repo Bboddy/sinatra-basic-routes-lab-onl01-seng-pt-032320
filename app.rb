@@ -6,14 +6,14 @@ class App < Sinatra::Base
   end
   
   get '/:name' do 
-    "My name is #{params [:name]}"
+    "My name is __"
   end
   
   get '/:hometown' do 
-    "My name is #{params [:hometown]}"
+    "My name is __"
   end
   
   get '/:favorite-song' do 
-    "My name is #{params [:favorite-song]}"
+    "My name is __"
   end
 end
